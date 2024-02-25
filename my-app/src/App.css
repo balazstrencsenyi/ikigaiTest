@@ -38,7 +38,7 @@
 
 .App-header {
   /*background-color: #282c34;*/
- 
+  background-color:#004279;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,13 +50,13 @@
 
 .Page2 {
   min-height: 100vh;
-  background-color:#027EE4;
+  background-color:#ffffff;
 
 }
 
 .Page3 {
   min-height: 100vh;
-
+  background-color:#004279;
 }
 
 .App-link {
