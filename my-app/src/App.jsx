@@ -1,5 +1,7 @@
-import logo from "./logo.png";
-import Header from "./components/Header"
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Services from "./components/Services";
+import Benefits from "./components/Benefits";
 import "./App.css";
 
 function App() {
@@ -7,13 +9,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-
-      <div className="Page2"></div>
-
-      <div className="Page3"></div>
+      <Home />
+      <Services />
+      <Benefits />
     </div>
   );
 }
