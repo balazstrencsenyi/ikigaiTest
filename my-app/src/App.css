@@ -15,9 +15,8 @@
 }
 
 .Header {
-  background-color: #027EE4;
+  background-color: rgba(2, 126, 228, 0.8); /* Initial background color with 0.8 opacity */
   color: white;
-  opacity: 0.8;
   z-index: 1;
   position: fixed;
   display: flex;
@@ -26,12 +25,14 @@
   gap: 130px;
   height: 60px;
   width: 100%;
-
+  /* transition: background-color 0.3s ease; */ /* Remove transition */
 }
 
 .menu {
   cursor: pointer;
 }
+
+/* Rest of your CSS */
 
 .App-header {
   /*background-color: #282c34;*/
