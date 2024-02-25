@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  min-height: 300vh;
+  min-height: 600vh;
 }
 
 .App-logo {
@@ -57,6 +57,21 @@
 .benefitsPage {
   min-height: 100vh;
   background-color:#004279;
+}
+
+.teamPage {
+  min-height: 100vh;
+  background-color:#ffffff;
+}
+
+.blogPage {
+  min-height: 100vh;
+  background-color:#004279;
+}
+
+.contactPage {
+  min-height: 100vh;
+  background-color:#ffffff;
 }
 
 .App-link {
